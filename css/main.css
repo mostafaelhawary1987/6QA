@@ -1462,6 +1462,7 @@ html[dir="ltr"] .logo {
 }
 html[dir="ltr"] .menu-head a {
   text-transform: uppercase;
+  font-size: 14px;
 }
 html[dir="ltr"] .menu-head li:first-child {
   margin-right: 27px;
