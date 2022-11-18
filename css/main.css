@@ -2082,3 +2082,84 @@ html[dir="ltr"] .menu-head li:last-child {
   .sec-fo {
     width: 100%;}
 }
+
+
+/* Previous_work */
+.pre-work p{
+  font-size: 16px;
+    font-family: "tjMd";
+    color: var(--text-color);
+    line-height: 27px;
+    text-align: justify;
+}
+
+/* licenses */
+.license-title h3 {
+  position: relative;
+  display: block;
+  font-size: 26px;
+  font-family: "tjBold";
+  color: var(--main-color);
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.license-title h3::after {
+  width: 52px;
+  height: 2px;
+  content: "";
+  display: block;
+  background-color: var(--sec-color);
+  margin-top: 8px;
+}
+.license-title ul {
+  line-height: 1.699;
+  font-size: 18px;
+  color: var(--text-color);
+  padding: 10px 0;
+  margin: 0;
+}
+.license-title ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.license-title ul li:before {
+  width: 6px;
+  height: 6px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  content: "";
+  display: block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 11px 0 0;
+  -webkit-margin-end: 12px;
+  margin-inline-end: 12px;
+}
+@media (max-width: 480px) {
+  .head-title h2  {
+    font-size: 35px;}
+}
+/* press */
+.sign-now p{
+  margin-top: 45px;
+  background-color: var(--main-color);
+  color:  var(--side-color);
+}
+.sign-now a{
+  font-size: 18px;
+  font-family: "tjBlk";
+  display: inline-block;
+  color:  var(--side-color);
+  text-decoration: underline;
+  margin: 0px 5px;
+  -webkit-transition: 0.8s ease;
+  -o-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+.sign-now a:hover{
+  color: var(--sec-color);
+}
