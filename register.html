@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
     <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -22,7 +23,7 @@
 
 <body class="about-page">
     <div class="overlay" id="closeNav"></div>
-    <!-- Start Loader -->
+    <!-- Start Loader --> 
     <div class="loader">
         <img src="image/loader.png" class="img-responsive svg pulse">
     </div> 
@@ -159,20 +160,112 @@
 
         <form>
             <div class="form-group">
-                <label for="exampleInputEmail1">البريد الإلكتروني</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="" required="true">
+                <label for="exampleInputEmail1">الاسم</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="الأسم بالكامل" required="true">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">كلمة المرور</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                <label for="exampleInputEmail1">الرقم القومى</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" placeholder="12xxxxxxxxxxx" required="true">
             </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">المؤهل</label>
+             <div class="cont"> 
+                <select class="selectpicker spbox mk">
+                        
+                        <option>اختر المؤهل</option>
+                        <option>الدبلومة الامريكية</option>
+                        <option>شهادة اتمام الدراسة الثانوية العامة</option>
+                        <option>شهادة اتمام الدراسة الثانوية الأزهرية</option>
+                        <option>دبلوم المدارس الثانوية الفنية الصناعية</option>
+                </select>
+                            </div> 
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">سنه التخرج</label>
+             <div class="cont"> 
+                <select class="selectpicker spbox mk">
+                        
+                        <option>اختر سنه التخرج</option>
+                        <option>2022</option>
+                        <option>2021</option>
+                        <option>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                       
+                </select>
+                            </div> 
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">المحافظة</label>
+             <div class="cont"> 
+                <select class="selectpicker spbox mk">
+                        
+                        <option>اختر المحافظة</option>
+                        <option>اسوان</option>
+                        <option>الدقهلية</option>
+                        <option>الغربية</option>
+                        <option>القاهرة</option>
+                        <option>اسيوط</option>
+                       
+                </select>
+                            </div> 
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">القسم</label>
+                <div class="cont"> 
+                    <select class="selectpicker spbox mk">
+                            
+                            <option>اختر القسم</option>
+                            <option>تكنولوجيا المعلومات</option>
+                            <option>الصحافة والإعلام</option>
+                            <option>المساحة و الخرائط</option>
+                            <option>الخدمات الطبية</option>
+                            <option>إدارة الأعمال</option>
+                    </select>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">الفرع</label>
+                <div class="cont"> 
+                    <select class="selectpicker spbox mk">
+                            
+                            <option>اختر الفرع</option>
+                            <option>فرع الهرم</option>
+                            <option>فرع المنصورة</option>
+                            <option>فرع طنطا</option>
+                            <option>فرع بنها</option>
+                        
+                    </select>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">وسيلة التعارف</label>
+                <div class="cont"> 
+                    <select class="selectpicker spbox mk">
+                            
+                            <option>اختر وسيلة التعارف</option>
+                            <option>الهاتف</option>
+                            <option>الواتس أب</option>
+                    </select>
+                </div> 
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">الهاتف</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" placeholder="01xxxxxxxxxx" required="true">
+            </div>
+
+           
         </form>
-        <div class="get-pas">
-            <a href="#">
-                هل نسيت كلمة المرور؟
-            </a>
-        </div>
-        <button type="submit" class="sec-prov">تسجيل دخول</button>
+
+        <button type="submit" class="sec-prov">تسجيل جديد</button>
     </div>
     </div>
 </section>
@@ -287,6 +380,7 @@
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
     <script src="js/main.js"></script>
 
 
