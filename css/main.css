@@ -1595,9 +1595,9 @@ html[dir="ltr"] .menu-head li:last-child {
 .about-page .shape-left{
 
 
-    clip-path: polygon(0% 611%, 0 0, 100% 0);
-    -webkit-clip-path: polygon(0% 611%, 0 0, 100% 0);
-    clip-path: polygon(0% 611%, 0 0, 100% 0);
+    clip-path: polygon(0% 611%, 0 0, 95% 0);
+    -webkit-clip-path: polygon(0% 611%, 0 0, 95% 0);
+    clip-path: polygon(0% 611%, 0 0, 95% 0);
     height: 195px;
     left: 0px;
 
