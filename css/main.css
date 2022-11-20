@@ -458,6 +458,9 @@ padding: 3px 0px;
   transition: 0.5s ease;
   line-height: 1.2;
 }
+.dropdown-list a>img{width: 21px;
+  height: 15px;
+  margin: 0px 5px;}
 .menu-head a {
   font-size: 18px;
   color: var(--bread-color);
@@ -466,6 +469,9 @@ padding: 3px 0px;
   -o-transition: 0.5s ease;
   transition: 0.5s ease;
 }
+.dropdown-head>img{    width: 21px;
+  height: 16px;
+  margin: 0px 5px;}
 .menu-head li {
   height: 100%;
 
