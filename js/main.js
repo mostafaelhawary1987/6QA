@@ -85,7 +85,22 @@ $(".closebtn,.overlay").click( function() {
 
 
 });
-
+$('.marquee').marquee({
+	duration: 6000,
+	gap: 50,
+	delayBeforeStart: 0,
+	direction: 'right',
+	duplicated: true,
+	pauseOnHover: true
+});
+$('.marquee_en').marquee({
+	duration: 6000,
+	gap: 50,
+	delayBeforeStart: 0,
+	direction: 'left',
+	duplicated: true,
+	pauseOnHover: true
+});
 
 $(window).on("load", function () {
     $('body,html').scrollTop(0)
