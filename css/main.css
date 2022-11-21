@@ -2256,3 +2256,52 @@ html[dir="ltr"] .news_line .least:after {
 .sign-now a:hover{
   color: var(--sec-color);
 }
+
+.directors-member{display: flex;
+flex-wrap: wrap;
+align-items: center;
+padding-top: 45px;
+padding-bottom: 60px;
+}
+.member-dir{display: flex;flex-direction: column;}
+.member-dir.ceo{width: 100%;    margin-bottom: 60px;}
+.member-dir.one{width: 50%;}
+.member-dir img{
+  width: 270px;
+  height: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: auto;
+}
+.member-dir h3{font-size: 35px;
+  color:  var(--main-color);
+  font-family: "tjBold";
+  text-align: center;
+}
+.member-dir span{font-size: 28px;
+  color:  var(--main-color);
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .member-dir img {
+    width: 250px;
+    height: 250px;
+
+}
+.member-dir h3 {
+  font-size: 30px;
+
+}
+}
+@media (max-width: 480px) {
+  .member-dir.one {
+    width: 100%;
+    margin-bottom: 50px;
+}
+}
+@media (max-width: 375px) {
+  .member-dir h3 {
+    font-size: 25px;
+
+}
+}
