@@ -1530,10 +1530,13 @@ html[dir="ltr"] .down:after {
 html[dir="ltr"] .side-menu .sub_list li {
   margin-left: 25px;
 }
-html[dir="ltr"] .shape-left{left: unset;right: -178px;padding-left: 43%;
+html[dir="ltr"] .shape-left{
+  left: unset;right: -178px;padding-left: 43%;
   clip-path: polygon(64% 88%, 0 0, 98% 0);;
   -webkit-clip-path:polygon(64% 88%, 0 0, 98% 0);;
-  clip-path: polygon(64% 88%, 0 0, 98% 0); }
+  clip-path: polygon(64% 88%, 0 0, 98% 0);
+ }
+
 html[dir="ltr"] .logo {
   margin-left: unset;
   margin-right: auto;
@@ -1676,12 +1679,13 @@ html[dir="ltr"] .news_line .least:after {
 .about-page header{overflow: initial;}
 .about-page .shape-left{
 
-
-    clip-path: polygon(0% 611%, 0 0, 95% 0);
-    -webkit-clip-path: polygon(0% 611%, 0 0, 95% 0);
-    clip-path: polygon(0% 611%, 0 0, 95% 0);
-    height: 195px;
-    left: 0px;
+  left: unset;
+  right: -100px;
+  padding-left: 0;
+  padding-right: 86%;
+  clip-path: polygon(60% 117%, 0 0, 100% 0);
+  -webkit-clip-path: polygon(60% 117%, 0 0, 100% 0);
+  clip-path: polygon(60% 117%, 0 0, 100% 0);
 
 
 }
