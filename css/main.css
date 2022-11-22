@@ -2305,3 +2305,7 @@ padding-bottom: 60px;
 
 }
 }
+
+/* dropdown-head-flag */
+.dropdown-head-flag{display: flex;align-items: center;}
+.dropdown-head-flag img{width: 23px;margin: 0px 5px;}
