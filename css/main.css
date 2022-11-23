@@ -1530,12 +1530,6 @@ html[dir="ltr"] .down:after {
 html[dir="ltr"] .side-menu .sub_list li {
   margin-left: 25px;
 }
-html[dir="ltr"] .shape-left{
-  left: unset;right: -178px;padding-left: 43%;
-  clip-path: polygon(64% 88%, 0 0, 98% 0);;
-  -webkit-clip-path:polygon(64% 88%, 0 0, 98% 0);;
-  clip-path: polygon(64% 88%, 0 0, 98% 0);
- }
 
 html[dir="ltr"] .logo {
   margin-left: unset;
@@ -1679,13 +1673,11 @@ html[dir="ltr"] .news_line .least:after {
 .about-page header{overflow: initial;}
 .about-page .shape-left{
 
-  left: unset;
-  right: -100px;
-  padding-left: 0;
-  padding-right: 86%;
-  clip-path: polygon(60% 117%, 0 0, 100% 0);
-  -webkit-clip-path: polygon(60% 117%, 0 0, 100% 0);
-  clip-path: polygon(60% 117%, 0 0, 100% 0);
+    padding-left: 45% !important;
+    
+    clip-path: polygon(75% 119%, 0 0, 98% 0);
+    -webkit-clip-path: polygon(75% 119%, 0 0, 98% 0);
+    clip-path: polygon(75% 140%, 0 0, 100% 0);
 
 
 }
@@ -2113,7 +2105,14 @@ html[dir="ltr"] .news_line .least:after {
 .add-branch-contact {
     width: 100%;
 }}
-
+html[dir="ltr"] .shape-left{
+   left: unset;
+    right: -135px;
+    clip-path: polygon(48% 212%, 0 0, 98% 0);
+    -webkit-clip-path: polygon(48% 212%, 0 0, 98% 0);
+    clip-path: polygon(48% 212%, 0 0, 98% 0);
+    
+}
 /* Login */
 .sec-fo {
   width: 50%;
@@ -2313,3 +2312,12 @@ padding-bottom: 60px;
 /* dropdown-head-flag */
 .dropdown-head-flag{display: flex;align-items: center;}
 .dropdown-head-flag img{width: 23px;margin: 0px 5px;}
+
+.apps img{width: 155px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 42px;
+  margin: auto;
+
+  margin-bottom:10px}
+  .apps{margin-top: 45px;}
